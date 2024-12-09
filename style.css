@@ -48,7 +48,6 @@ section {
 	top: 0px;
 	border-bottom: dashed 1px;
 	background-color: black;
-	
 }
 
 ::selection, ::-moz-selection /* Code for Firefox */ {
