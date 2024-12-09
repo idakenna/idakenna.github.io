@@ -27,8 +27,24 @@ section {
 }
 
 /* classes */
-.nav-section {
+
+.card, .nav-section {
 	display: inline-block;
+}
+.card{
+	width: 360px;
+	height: 360px;
+	border: 2px ridge; 
+	margin: 0px 0px 40px 30px;
+}
+.card-body{
+	margin: 8px;
+}
+h3.card-header{
+	text-align: center;
+	margin: 5px 0px;
+	padding-bottom: 5px;
+	border-bottom: 2px dotted;
 }
 .section-padding{
 	height: 100px;
@@ -48,6 +64,14 @@ section {
 	top: 0px;
 	border-bottom: dashed 1px;
 	background-color: black;
+}
+#footer {
+	font-size: small;
+	position: sticky;
+	bottom: 0px;
+	background-color: black;
+	text-align: center;
+	border-top: dashed 1px;
 }
 
 ::selection, ::-moz-selection /* Code for Firefox */ {
