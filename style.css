@@ -1,0 +1,62 @@
+/* elements */
+body {
+	background-color: black;
+	color: red;
+	font-size: large;
+}
+
+a:visited {
+	color: #FF29FF;
+}
+
+a:link, a:hover {
+	color: #00FF00;
+}
+
+h1 {
+	margin: 10px 0px 0px 0px;
+}
+nav{
+
+}
+p {
+	margin: 10px 0px;
+}
+section {
+	
+}
+
+/* classes */
+.nav-section {
+	display: inline-block;
+}
+.section-padding{
+	height: 100px;
+}
+.section-divider{
+
+}
+
+/* ids */
+#banner {
+	width: 95%;
+	margin: auto;
+	text-align: center;
+}
+#header {
+	position: sticky;
+	top: 0px;
+	border-bottom: dashed 1px;
+	background-color: black;
+	
+}
+
+::selection, ::-moz-selection /* Code for Firefox */ {
+  	color: black;
+  	background: red;
+}
+
+p::selection, p::-moz-selection{
+	color: purple;
+	background: black;
+}
