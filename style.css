@@ -31,6 +31,7 @@ h1 {
 }
 nav{
 	border-bottom: dashed 1px;
+	font-size: normal;
 }
 p {
 	margin: 10px 0px;
@@ -53,24 +54,46 @@ section.h2{
 	display: inline-block;
 }
 .card{
-	width: 360px;
-	height: 360px;
+	width: 330px;
+	height: 330px;
 	border: 1px dashed; 
-	margin: 0px 0px 50px 40px;
+	margin: 0px 0px 20px 10px;
 	position: relative;
+
 }
+.card:hover{
+	color: #00FF00;
+}
+
 .card-body{
 	margin: 8px;
 	position: absolute;
 	bottom: 0;
+	z-index: 2;
+	width: 100%;
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.card-body>* {
+	display: flex;
+	line-height: 18px;
+		
+}
+.thumbnail { /* set for aspect ratio 4:3 */
+	width: 95%;
+	display: block;
+	margin: 8px;	
 }
 
-.key, .value {
-	display: inline-block;
+.keys, .values {
+	justify-content: center;
+	text-align: center;
+	
 }
-.key {
-	font-family: 
-}
+.keys {
+	border-right: dashed 1px;
+	}
+	
 h3.card-header{
 	text-align: center;
 	margin: 5px 0px;
@@ -96,6 +119,7 @@ h3.card-header{
 	top: 0px;
 	border-bottom: dashed 1px;
 	background-color: black;
+	z-index: 3;
 }
 #footer {
 	font-size: small;
@@ -104,6 +128,7 @@ h3.card-header{
 	background-color: black;
 	text-align: center;
 	border-top: dashed 1px;
+	z-index: 3;
 }
 
 ::selection, ::-moz-selection /* Code for Firefox */ {
