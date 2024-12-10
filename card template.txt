@@ -1,6 +1,10 @@
 <div class="card">
 	<h3 class="card-header">card name</h3>
 	<div class="card-body">
-		<p>card body</p>
-	</div>
-</div>
+		<div class="key">
+			genre</br>
+			my role
+		</div>
+		<div class="value">
+		</div>
+	</div></div>

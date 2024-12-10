@@ -14,7 +14,7 @@ body {
 	background-color: black;
 	color: red;
 	font-size: large;
-	font-family: 'Quicksand Dash Regular', sans-serif;
+	font-family: 'Quicksand Dash Regular';
 	font-weight: 400;
 }
 
@@ -57,9 +57,19 @@ section.h2{
 	height: 360px;
 	border: 1px dashed; 
 	margin: 0px 0px 50px 40px;
+	position: relative;
 }
 .card-body{
 	margin: 8px;
+	position: absolute;
+	bottom: 0;
+}
+
+.key, .value {
+	display: inline-block;
+}
+.key {
+	font-family: 
 }
 h3.card-header{
 	text-align: center;
