@@ -1,12 +1,15 @@
 <div class="card">
-	<h3 class="card-header">card name</h3>
+	<h3 class="card-header">new card</h3>
+	<a href="">
+	<img class="thumbnail" src="" title="click to learn more about this game">
+	</a>
 	<div class="card-body">
 		<div class="keys">
-			<div="key"></div>
-			<div="key"></div>
+			genre:</br>
+			my role:
 		</div>
 		<div class="values">
-			<div="value"></div>
-			<div="value"></div>
+			type of project</br>
+			stuff i did
 		</div>
 	</div></div>

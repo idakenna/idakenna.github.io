@@ -4,7 +4,7 @@
 <head>
 <title>ida home</title> <!-- for pages, add page title after site title -->
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=.5, target-densitydpi=device-dpi">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/oxanium">
 </head>
@@ -36,7 +36,7 @@
 
 <!-- footer content -->
 	<div id="footer">
-	CC BY-SA 4.0 created by ida kenna (ida.kenna@protonmail.com)
+	CC BY-SA 4.0 created by ida kenna (<a href="mailto:ida.kenna@protonmail.com">ida.kenna@protonmail.com</a>)
 	</div>
 </body>
 <html>
