@@ -56,10 +56,10 @@ section.h2{
 	display: inline-block;
 }
 .card{
-	width: 330px;
-	height: 330px;
+	width: 310px;
+	height: 310px;
 	border: 1px dashed; 
-	margin: 0px 0px 20px 10px;
+	margin: 0px 0px 15px 10px;
 	position: relative;
 
 }
