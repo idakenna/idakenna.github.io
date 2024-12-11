@@ -38,6 +38,9 @@ h1 {
 nav{
 	border-bottom: dashed 1px;
 	font-size: normal;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 0px 10px;
 }
 p {
 	margin: 10px 0px;
@@ -56,7 +59,7 @@ section.h2{
 
 /* classes */
 
-.card, .nav-section{
+.card{
 	display: inline-block;
 }
 .card{
@@ -106,6 +109,12 @@ h3.card-header{
 	padding-bottom: 5px;
 	border-bottom: 1px dashed;
 }
+
+.nav-section{
+	display: flex;
+	justify-content: start;
+}
+
 .section-padding{
 	height: 110px;
 	border-bottom: dashed 1px;
@@ -136,6 +145,7 @@ h3.card-header{
 	border-top: dashed 1px;
 	z-index: 3;
 }
+
 #footer, nav {
 	padding: 2px 0px;
 }
