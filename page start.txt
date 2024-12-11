@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>ida home</title> <!-- for pages, add page title after site title -->
+<title></title> <!-- for pages, add page title after site title -->
 <meta charset="UTF-8">
 <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=.5, target-densitydpi=device-dpi">
 <link rel="stylesheet" href="style.css">
@@ -28,11 +28,12 @@
 		<!-- banner -->
 		<div id="banner">
 		<h1>ida kenna</h2>
-		<p id="subtitle">programming, art, design, writing</p>
+		<p id="subtitle">coding, art, design, writing, organizing</p>
 		</div>
 	</div>
 
 	<!-- page content -->
+	
 
 <!-- footer content -->
 	<div id="footer">

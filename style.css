@@ -27,7 +27,11 @@ a:visited {
 a:link, a:hover {
 	color: #00FF00;
 }
-
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /*for IE8 compatability*/ 
+}
 h1 {
 	margin: 10px 0px 0px 0px;
 }
@@ -42,7 +46,7 @@ section {
 	
 }
 
-section p {
+p {
 	font-family: 'Oxanium', sans-serif;
 }
 
@@ -103,7 +107,7 @@ h3.card-header{
 	border-bottom: 1px dashed;
 }
 .section-padding{
-	height: 100px;
+	height: 110px;
 	border-bottom: dashed 1px;
 }
 .section-divider{
@@ -132,6 +136,11 @@ h3.card-header{
 	border-top: dashed 1px;
 	z-index: 3;
 }
+#footer, nav {
+	padding: 2px 0px;
+}
+#subtitle {
+	}
 
 ::selection, ::-moz-selection /* Code for Firefox */ {
   	color: black;
