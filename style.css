@@ -86,7 +86,13 @@ section.h2{
 .card-body>* {
 	display: flex;
 	line-height: 18px;
-		
+}
+.homepage {
+	text-align: center;
+}
+.homepage img {
+	display: block;
+	margin: auto;
 }
 .thumbnail { /* set for aspect ratio 4:3 */
 	width: 95%;
